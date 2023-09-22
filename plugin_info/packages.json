@@ -10,6 +10,8 @@
   "yarn": {
   },
   "plugin": {
+    "jmqtt": {},
+    "docker2": {}
   },
   "post-install": {
   }
