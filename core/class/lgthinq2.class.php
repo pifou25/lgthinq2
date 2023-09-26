@@ -3,7 +3,7 @@
 /* * ***************************Includes********************************* */
 require_once __DIR__  . '/../../../../core/php/core.inc.php';
 
-class template extends eqLogic {
+class lgthinq2 extends eqLogic {
   /*     * *************************Attributs****************************** */
 
   /*
@@ -133,7 +133,7 @@ class template extends eqLogic {
   /*     * **********************Getteur Setteur*************************** */
 }
 
-class templateCmd extends cmd {
+class lgthinq2Cmd extends cmd {
   /*     * *************************Attributs****************************** */
 
   /*

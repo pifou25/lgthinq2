@@ -35,6 +35,7 @@ jobs:
               --package=jeedom-semrel-plugin-config@1 \
               --package=semantic-release@21 \
               semantic-release --extends=jeedom-semrel-plugin-config
+          echo $new_release_version >> "$GITHUB_ENV"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
