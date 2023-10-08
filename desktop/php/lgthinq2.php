@@ -30,7 +30,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
 			</div>
 			<?php
 			// à conserver
-			// sera afficher uniquement si l'utilisateur est en version 4.4 ou supérieur
+			// sera affiché uniquement si l'utilisateur est en version 4.4 ou supérieur
 			$jeedomVersion  = jeedom::version() ?? '0';
 			$displayInfoValue = version_compare($jeedomVersion, '4.4.0', '>=');
 			if ($displayInfoValue) {
